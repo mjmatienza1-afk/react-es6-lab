@@ -1,11 +1,11 @@
-import React from "react";
-import UserList from "./UserList.jsx"; 
+import React from 'react';
+import Counter from './Counter.jsx'; 
 
 function App() {
-  const users = ["Alice", "Bob", "Charlie"];
   return (
     <div>
-      <UserList users={users} />
+      <h1>My Counter App</h1>
+      <Counter />
     </div>
   );
 }
